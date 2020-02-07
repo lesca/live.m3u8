@@ -1,12 +1,12 @@
 <?php
 
-
-        $tvList = array(
-                "sztv1"=>"https://anylive.website.com/szh/channel_detail.php?channel_id=1",
-                "sztv2"=>"https://anylive.website.com/szh/channel_detail.php?channel_id=2",
-                "sztv3"=>"https://anylive.website.com/szh/channel_detail.php?channel_id=3",
-                "sztv4"=>"https://anylive.website.com/szh/channel_detail.php?channel_id=4",
-        );
+    // 苏州电视台直播源 - json格式
+    $tvList = array(
+        "sztv1"=>"https://mobile.kan0512.com/szh/channel_detail.php?appkey=mmv6bfo799vcDHqfZBlqtDp4NHCCb4xn&appid=36&device_token=edbc839c4d969a6cf67b840367a25750&version=4.0.4&app_version=4.0.4&avos_device_token=edbc839c4d969a6cf67b840367a25750&client_id_ios=523cd29827ef83a51c40132bea8987a2&channel_id=60&ad_group=mobile&",
+        "sztv2"=>"https://mobile.kan0512.com/szh/channel_detail.php?appkey=mmv6bfo799vcDHqfZBlqtDp4NHCCb4xn&appid=36&device_token=edbc839c4d969a6cf67b840367a25750&version=4.0.4&app_version=4.0.4&avos_device_token=edbc839c4d969a6cf67b840367a25750&client_id_ios=523cd29827ef83a51c40132bea8987a2&channel_id=51&ad_group=mobile&",
+        "sztv3"=>"https://mobile.kan0512.com/szh/channel_detail.php?appkey=mmv6bfo799vcDHqfZBlqtDp4NHCCb4xn&appid=36&device_token=edbc839c4d969a6cf67b840367a25750&version=4.0.4&app_version=4.0.4&avos_device_token=edbc839c4d969a6cf67b840367a25750&client_id_ios=523cd29827ef83a51c40132bea8987a2&channel_id=52&ad_group=mobile&",
+        "sztv5"=>"https://mobile.kan0512.com/szh/channel_detail.php?appkey=mmv6bfo799vcDHqfZBlqtDp4NHCCb4xn&appid=36&device_token=edbc839c4d969a6cf67b840367a25750&version=4.0.4&app_version=4.0.4&avos_device_token=edbc839c4d969a6cf67b840367a25750&client_id_ios=523cd29827ef83a51c40132bea8987a2&channel_id=53&ad_group=mobile&"
+    );
 
     // Accept "channel" as GET parameter
     $channel = $_GET["channel"];
